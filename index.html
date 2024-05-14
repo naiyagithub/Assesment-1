@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowbite</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="src/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar Start -->
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="nav-logo">
+            <span>Edu Meeting</span>
+          </a>
+          <button type="button" class="nav-toggle" aria-expanded="false">
+            <img src="src/menu-icon.svg" alt="Menu" class="menu-icon" />
+            <img src="src/close-icon.svg" alt="Close" class="menu-icon hidden" />
+          </button>
+          <ul class="nav-menu">
+            <li><a href="#banner" aria-current="page">Home</a></li>
+            <li><a href="#meetings">Meetings</a></li>
+            <li><a href="#apply">Apply Now</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner" id="banner">
+      <div class="banner-content">
+        <h1>Join Our Code Bootcamp</h1>
+        <p>Launch your tech career with our hands-on coding bootcamp</p>
+        <button type="button" class="button-custom">Enroll Now</button>
+      </div>
+    </section>
+    <!-- Banner End -->
+    <main>
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <!-- Three cards are visible initially -->
+          <div class="card">
+            <img src="src/authentication.svg" alt="" />
+            <h3>Best Education</h3>
+            <p>
+              Exceptional educational services that ensure learning is impactful
+              and efficient.
+            </p>
+          </div>
+          <div class="card">
+            <img src="src/authentication.svg" alt="" />
+            <h3>Best Teachers</h3>
+            <p>
+              Dedicated and skilled teachers who foster an environment that
+              empowers students.
+            </p>
+          </div>
+          <div class="card">
+            <img src="src/authentication.svg" alt="" />
+            <h3>Best Students</h3>
+            <p>
+              Students who are eager to learn and excel in their academic
+              endeavors.
+            </p>
+          </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+
+      <h2 id="meetings">Upcoming Meeting</h2>
+      <section class="upcoming-meetings-container">
+        <div class="featured-meeting">
+          <div class="meeting-content">
+            <h2>Meeting Categories</h2>
+            <ul class="meeting-list">
+              <li>Sed tempus enim leo</li>
+              <li>Aenean molestie quis</li>
+              <li>Cras et metus vestibulum</li>
+              <li>Lorem sit condimentum</li>
+              <li>Phasellus nec sapien</li>
+              <li>Integer in tincidunt velit</li>
+            </ul>
+            <button class="button-main">All Upcoming Meetings</button>
+          </div>
+        </div>
+        <div class="other-meetings">
+          <!-- Meeting Cards -->
+          <div class="meeting-card">
+            <img
+              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="Meeting Image"
+            />
+            <div class="meeting-info">
+              <h3>New Lecturers Meeting</h3>
+              <p>$22.00 - Nov 10</p>
+              <button>Learn more</button>
+            </div>
+          </div>
+          <div class="meeting-card">
+            <img
+              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="Meeting Image"
+            />
+            <div class="meeting-info">
+              <h3>New Lecturers Meeting</h3>
+              <p>$22.00 - Nov 10</p>
+              <button>Learn more</button>
+            </div>
+          </div>
+          <div class="meeting-card">
+            <img
+              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="Meeting Image"
+            />
+            <div class="meeting-info">
+              <h3>New Lecturers Meeting</h3>
+              <p>$22.00 - Nov 10</p>
+              <button>Learn more</button>
+            </div>
+          </div>
+          <div class="meeting-card">
+            <img
+              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="Meeting Image"
+            />
+            <div class="meeting-info">
+              <h3>New Lecturers Meeting</h3>
+              <p>$22.00 - Nov 10</p>
+              <button>Learn more</button>
+            </div>
+          </div>
+          <!-- Repeat for each card -->
+        </div>
+      </section>
+
+      <section class="apply-section" id="apply">
+        <div class="apply-cards">
+          <div class="apply-card left-card">
+            <h3>Apply for Bachelor Degree</h3>
+            <p>
+              Unlock your potential by enrolling in our prestigious bachelor's
+              degree programs tailored for future leaders and innovators.
+            </p>
+            <button>Join Us Now</button>
+          </div>
+          <div class="apply-card left-card">
+            <h3>Exclusive Educational Resources</h3>
+            <p>
+              Access a wealth of resources exclusively as a registered student.
+              Our materials are designed to give you a competitive edge in your
+              studies.
+            </p>
+            <button>Join Us Now</button>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-section main">
+            <h2>About Edu Meeting HTML Template</h2>
+            <p>
+              If you want to get the latest collection of HTML CSS templates for
+              your websites, you may visit our site.
+            </p>
+          </div>
+          <div class="info-section">
+            <h3>HTML CSS Bootstrap Layout</h3>
+            <p>
+              From menus to metrics cards, we demonstrate with sample script.
+              Please visit our contact page for support.
+            </p>
+          </div>
+          <div class="info-section">
+            <h3>Please tell your friends</h3>
+            <p>All templates are free, don’t redistribute in any form.</p>
+          </div>
+          <div class="info-section">
+            <h3>Share this to your colleagues</h3>
+            <p>Encourage receiving senior reviews and feedback in teams.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses-section" id="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="courses-carousel">
+          <button class="carousel-control left">&#10094;</button>
+          <div class="carousel-slide">
+            <div class="course-card">
+              <img src="src/course-1.jpg" alt="Course Description" />
+              <div class="course-info">
+                <p>Please visit our website again</p>
+                <span>$320</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="src/course-2.jpg" alt="Course Description" />
+              <div class="course-info">
+                <p>Responsive HTML Templates for you</p>
+                <span>$400</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="src/course-3.jpg" alt="Course Description" />
+              <div class="course-info">
+                <p>Download Free CSS Layouts for your business</p>
+                <span>$430</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="src/course-4.jpg" alt="Course Description" />
+              <div class="course-info">
+                <p>Morbi in libero blandit lectus cursus</p>
+                <span>$480</span>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control right">&#10095;</button>
+        </div>
+      </section>
+
+      <div class="facts-container">
+        <div class="facts-section">
+          <h2>A Few Facts About Our University</h2>
+          <div class="facts-cards">
+            <div class="fact-card">
+              <span>94%</span><br />Succeeded Students
+            </div>
+            <div class="fact-card"><span>2345</span><br />New Students</div>
+            <div class="fact-card"><span>126</span><br />Current Teachers</div>
+            <div class="fact-card"><span>32</span><br />Awards</div>
+          </div>
+        </div>
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <section class="contact-section" id="contact">
+        <div class="contact-form">
+          <h2>Let's Get in Touch</h2>
+          <form action="#" method="post">
+            <div class="form-row">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name *"
+                required
+                pattern="[A-Za-z]{3,6}"
+                title="Name should be 3-6 letters. No numbers or special characters allowed."
+              />
+              <input type="email" placeholder="Your Email *" required />
+              <input type="text" placeholder="Subject *" required />
+            </div>
+            <textarea placeholder="Your Message..." required></textarea>
+            <button type="submit">Send Message Now</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3>Contact Information</h3>
+            <p>Phone number:<br /><strong>010-020-0340</strong></p>
+            <p>Email Address:<br /><strong>info@meeting.edu</strong></p>
+            <p>
+              Street Address:<br /><strong
+                >Rio de Janeiro - RJ, 22795-008, Brazil</strong
+              >
+            </p>
+            <p>
+              Website URL:
+              <a href="http://www.meeting.edu" target="_blank"
+                >www.meeting.edu</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.querySelector(".nav-toggle");
+        const menu = document.querySelector(".nav-menu");
+        const icons = toggle.querySelectorAll("img");
+
+        function handleMenuVisibility() {
+          const screenWidth = window.innerWidth;
+          if (screenWidth >= 769) {
+            menu.style.display = "flex";
+            icons[0].classList.remove("hidden");
+            icons[1].classList.add("hidden");
+          } else {
+            menu.style.display = "none";
+            icons[0].classList.remove("hidden");
+            icons[1].classList.add("hidden");
+          }
+        }
+
+        toggle.addEventListener("click", function () {
+          const isVisible = menu.style.display === "flex";
+          menu.style.display = isVisible ? "none" : "flex";
+          toggle.setAttribute("aria-expanded", !isVisible);
+          icons[0].classList.toggle("hidden");
+          icons[1].classList.toggle("hidden");
+        });
+
+        window.addEventListener("resize", handleMenuVisibility);
+
+        handleMenuVisibility();
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        const nameInput = document.getElementById("name");
+
+        nameInput.addEventListener("input", function () {
+          const valid = /^[A-Za-z]{3,6}$/.test(this.value);
+          this.setCustomValidity(
+            valid
+              ? ""
+              : "Name should be 3-6 letters. No numbers or special characters allowed."
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
